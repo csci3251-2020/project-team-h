@@ -4,5 +4,4 @@
 void main() {
 	printf("Hellow world\n");
 	return;
-	
 }

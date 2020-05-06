@@ -6,8 +6,8 @@ We are setting up a new repository to practice our `github` skills.
 Will publish soon!
 
 # Contributors
-{% for student in site.stu %}
-  <p>{{ student.content | markdownify }}</p>
+{% for students in site.stu %}
+  <p>{{ students.content | markdownify }}</p>
 {% endfor %}
 
 

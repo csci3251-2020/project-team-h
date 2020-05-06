@@ -11,11 +11,7 @@ This is our team's progress so far
  -  Task 7[In Progress] 
  -  Task 8[In Progress]
 
-  
-   
-  
-  
-  
+
 # Code  
 Will publish soon!  
 Stay tuned!  
@@ -32,3 +28,8 @@ Till now we have the following people in our team:
 |`marcokong` |  
 |`SteveDexter24` |  
 |`lissandrablood` |
+
+
+
+**Please read `tasks.md` to start your work.**
+

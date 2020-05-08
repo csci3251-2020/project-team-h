@@ -29,13 +29,10 @@ Till now we have the following people in our team:
 |`SteveDexter24` |  
 |`lissandrablood` |
 
+
 {% for students in site.stu %}
-
-{{ students.content | markdownify }}
-
+  <p>{{ students.content | markdownify }}</p>
 {% endfor %}
-Please read tasks.md to start your work.
-
 
 **Please read `tasks.md` to start your work.**
 

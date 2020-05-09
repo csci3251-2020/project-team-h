@@ -7,11 +7,13 @@ Will publish soon!
 
 # Contributors
 {% for students in site.stu %}
-  <p>{{ students.content | markdownify }}</p>
+---
+{{ students.user | markdownify }}
+{{ students.image | markdownify }}
+{{ students.name | markdownify }}
+{{ students.content | markdownify }}
+---
 {% endfor %}
-
-
-**Please read `tasks.md` to start your work.**
 
 
  

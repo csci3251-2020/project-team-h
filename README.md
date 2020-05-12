@@ -8,9 +8,9 @@ Will publish soon!
 # Contributors
 {% for students in site.stu %}
 ---
-{{ students.user | markdownify }}
-{{ students.image | markdownify }}
-{{ students.name | markdownify }}
+user: {{ students.user | markdownify }}
+image: {{ students.image | markdownify }}
+name: {{ students.name | markdownify }}
 {{ students.content | markdownify }}
 ---
 {% endfor %}
